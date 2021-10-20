@@ -46,6 +46,19 @@
   background-color: #9AE3E2;
 }
 
+.invalid {
+  box-shadow: 0 0 0 4px rgb(255 118 117 / 79%);
+}
+
+.error_invalid {
+  color: rgb(255 118 117 / 79%);
+  font-size: 1.8rem;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 6rem;
+  font-style: italic;
+}
+
 @media screen and (min-width: 1440px) {
   .shorter {
     max-width: 111rem
