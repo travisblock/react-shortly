@@ -61,7 +61,7 @@ function Shorter() {
     <>
     <div className={style.shorter}>
       <form className={style.group} onSubmit={handleSubmit}>
-        <input onKeyUp={handleKeyUp} name="link" className={`${style.input} ${error.empty ? style.invalid : null}`} placeholder="Shorten a link here..."/>
+        <input autoComplete="off" onKeyUp={handleKeyUp} name="link" className={`${style.input} ${error.empty ? style.invalid : null}`} placeholder="Shorten a link here..."/>
         <button type="submit" className={style.submit}>{loading ? 'Loading...' : 'Shorten It!'}</button>
       </form>
       {error.empty && <span className={style.error_invalid}>Please add a link</span>}
