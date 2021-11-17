@@ -38,7 +38,7 @@ function Footer() {
         <div className={style.social}>
           <ul>
             <li><a href="/"><img src="/images/icon-facebook.svg" alt="Facebook"/></a></li>
-            <li><a href="/"><img src="/images/icon-twitter.svg" alt="twitter"/></a></li>
+            <li><a href="https://twitter.com/ajidstark"><img src="/images/icon-twitter.svg" alt="twitter"/></a></li>
             <li><a href="/"><img src="/images/icon-pinterest.svg" alt="pinterest"/></a></li>
             <li><a href="/"><img src="/images/icon-instagram.svg" alt="instagram"/></a></li>
           </ul>
